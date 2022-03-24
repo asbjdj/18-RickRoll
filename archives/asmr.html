@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>島國精品·(ASMR)ベッドパッションジアオ陸</title>
+</head>
+<body>
+    <div style="text-align: center">
+        <h1>(ASMR)ベッドパッションジアオ陸</h1>
+        <img src="res/earphones.png" style="width: 30%; margin: 5% auto;">
+    </div>
+    <link rel="stylesheet" href="./node_modules/aplayer/dist/APlayer.min.css">
+    <div id="aplayer" style="text-align: center; width: 30%; margin: 0 auto;"></div>
+    <script src="./node_modules/aplayer/dist/APlayer.min.js"></script>
+    <script>
+        const ap = new APlayer({
+        container: document.getElementById('aplayer'),
+        audio: [{
+            name: '(ASMR)ベッドパッションジアオ陸',
+            artist: 'artist',
+            url: 'res/500296563_nb2-1-64.mp3',
+            cover: 'res/asmr_cover.jpg'
+        }]
+    });
+    </script>
+</body>
+</html>

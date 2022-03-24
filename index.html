@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NSFW的小站</title>
+</head>
+<body>
+<div class="white_cloth">
+  <h1>您是否已滿18周歲</h1>
+  <p style="font-weight: lighter; font-size: 20px">以下內容可能不適合<strong style="font-weight: bold">未滿18周歲</strong>的人群觀看，我們需要確認您的年齡。</p>
+  <p style="font-size: 22px">The following may not be suitable for people who are <strong style="font-weight: bolder">under the age of 18</strong>, we need to confirm your age.</p>
+  <button type="button" id="butt1" onclick="window.location.href='archives/index.html'">已滿18周歲</button>
+  <button type="button" id="butt2">未滿18周歲</button>
+</div>
+</body>
+<style>
+  body {
+    background-size: cover;
+    background: #efefef url("archives/res/QQ图片20220324141244.jpg") no-repeat fixed center center;
+  }
+  .white_cloth {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.70);
+    border-radius: 17px;
+    width: 25%;
+    height: 45%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #butt1 {
+    text-align: center;
+    background-color: rgba(255, 0, 59, 0.88);
+    color: white;
+    border-radius: 3px;
+    width: 24%;
+    height: 8%;
+    left: 15%;
+    bottom: 10%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+  }
+  #butt2 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.00);
+    border-radius: 3px;
+    width: 24%;
+    height: 8%;
+    right: 15%;
+    bottom: 10%;
+    border: 2px solid black;
+    cursor: pointer;
+    position: absolute;
+  }
+</style>
+<script src="ChangeTitle.js"></script>
+</html>
